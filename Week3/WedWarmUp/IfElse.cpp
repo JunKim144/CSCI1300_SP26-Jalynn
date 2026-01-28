@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Collect User Input #1
+    int age;
+
+    cout << "Enter your age: ";
+    ___ >> age;                                // TODO 1/3 What keyword do you use to read in user input?
+
+    // Collect User Input #2
+    string username;
+
+    cout << "Enter your username: ";
+    ___ >> username;                            // TODO 1.5/3 Same thing here
+
+    // Compare Integers
+    if (_________) {                            // TODO 2/3 The condition is whether the user's age is greater than or equal to 18
+        cout << "You are an adult." << endl;
+    }
+    else {
+        cout << "You are not an adult." << endl;
+    }
+
+    // Substring example
+    string firstThree = username.substr(____);  // TODO 3/3 What parameter(s) do you pass to get the first three letters of the username?
+    cout << "The first three letters of your username is: " << firstThree << endl;
+
+    return 0;
+}

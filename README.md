@@ -10,5 +10,4 @@
 
 ## Week 3
 * Substr examples that were shown on the slides on Monday
-* If / Else example that were shown on the Monday slides
-* Monday demo is shown at the end of class
+* Wednesday coding demo / blanks / solution
